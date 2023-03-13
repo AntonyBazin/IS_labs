@@ -1,6 +1,7 @@
-def print_hi(name):
-    print(f"Hi, {name}")  # Press Ctrl+F8 to toggle the breakpoint.
+from pgmpy.models import BayesianNetwork
+from pgmpy.factors.discrete import TabularCPD
+from pgmpy.inference import VariableElimination
 
 
 if __name__ == "__main__":
-    print_hi("PyCharm")
+    print("Imports working, libraries installed, the code is in the notebook.")
