@@ -9,3 +9,4 @@ statsmodels
 tqdm
 joblib
 black
+jupyter
